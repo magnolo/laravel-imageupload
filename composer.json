@@ -15,7 +15,7 @@
   ],
   "require": {
     "php": ">=5.5.9",
-    "illuminate/support": "5.1.*",
+    "illuminate/support": "5.2.*",
     "imagine/imagine": "0.*"
   },
   "require-dev": {
@@ -26,11 +26,8 @@
     "league/flysystem-rackspace": "Rackspace Cloud Storage driver"
   },
   "autoload": {
-    "classmap": [
-      "src/migrations"
-    ],
-    "psr-0": {
-      "Matriphe\\Imageupload\\": "src/"
+    "psr-4": {
+      "Matriphe\\Imageupload\\": "src/Imageupload"
     }
   },
   "minimum-stability": "stable"
